@@ -1,0 +1,40 @@
+Updates from deliverable 1 to deliverable 2
+
+-Modified pitch detection function to take sound frames directly
+from microphone stream, rather than from a saved wav file.
+
+-Made the whole game with goombas and coins scrolling across screen.
+
+-Background/all of the mario images found on google image search.
+
+-Added delta graphics.
+
+-Mario can occupy any line or space to catch or avoid coins/goombas.
+
+-Implemented a score and a life counter (although no game over 
+screen yet).
+
+-There are two versions of game. One in which objects can only
+occupy the spaces in a staff, and another in which the objects can
+occupy the lines or the spaces.
+
+
+Updates from deliverable 2 to deliverable 3
+
+-Displays which note was most recently whistled
+
+-Goombas and coins can't spawn in same lane.
+
+-coins spawn within 2 lanes of previous coin (for musicality)
+
+-start screen
+
+-entire boss fight
+
+-start screen, instructions screen, gameover screen
+
+-pitchdetect now finds closest note, rather than using an epsilon
+
+-game over screen, pause screen, and you win screen
+
+-F major scale button on instructions screen plays fMajor.wav file

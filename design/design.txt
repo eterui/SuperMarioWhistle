@@ -1,0 +1,33 @@
+For my term project I created a mario themed game in which the user
+whistles at different frequencies to control the character.
+
+In order to analyze the frequencies of the pitches the user inputs,
+I used the pyAudio library to play a wav file as well as to open a
+stream of data from your microphone. I then used NumPy to carry out
+the fast fourier transform algorithm to convert this data into
+a frequency. With the frequency, I was able to carry out different
+actions, such as movement.
+
+I used object oriented programming to handle movement and collision,
+so I had a variety of different classes corresponding to the different
+objects in my game.
+
+I used Tkinter to handle mouse events, key events, and draw the
+interface. I implemented delta graphics, since I used
+many large images which would be costly to draw constantly.
+
+Regarding the UI, my game starts with a simple start screen with
+a "play game" button and an "instructions" button. I found that
+having instructions makes grasping the controls easier.
+Additionally, I have a button within my instructions screen which
+will reads a wav file that plays an F Major scale. I included this
+so the user can get all of the pitches in their ear before playing
+the game.
+
+In the actual game screen, I have icons and counters for lives
+remaining, coins collected, fire flowers stored, and the last note
+detected, which all assist the user in playing the game.
+
+Finally, I had a pause screen, game over screen, and you win screen.
+The pause screen is simply there if the user wants to take a break 
+or if they want to re-read the controls or gameplay instructions.
